@@ -55,7 +55,7 @@
 
                     <li class="nav-item">
 
-                        <a class="nav-link" href="programa.html" >Programa</a>
+                        <a class="nav-link" href="programa.html">Programa</a>
                     </li>
 
                 </ul>
@@ -72,7 +72,11 @@
             19:00
 
 
-            <a href="#" class="btn btn-danger ml-3">Participa</a>
+            <!-- <a href="#" class="btn btn-danger ml-3">Participa</a> -->
+            <div class="popup" onclick="popUp()">
+                <div class="btn btn-danger ml-3">Participa</div>
+                <span class="popuptext" id="myPopup">Esdeveniment encara no disponible</span>
+              </div>
 
         </div>
 
@@ -113,11 +117,11 @@
             <div class="card  col-lg-6 mt-3" style="width: 18rem;">
                 <div class="card-body">
                     <h4 class="card-title text-red">Laura Arau</h4>
-                    <p class="card-text"><span class="text-black"> Laura Arau</span> Gestora cultural i
-                        comunicadora audiovisual. Ha treballat en diversos mitjans de comunicació, coordinat campanyes
-                        d’incidència política i social, i col·laborat en diversos projectes culturals amb voluntat
-                        transformadora. Des del gener del 2018 forma part de l’equip de Cultura21. ES TAMBé RRCC de
-                        Tigre de Paper edicions i coordinadora de la fira literal. <br>
+                    <p class="card-text"><span class="text-black"> Laura Arau</span> Gestora cultural i comunicadora
+                        audiovisual. Ha treballat en diversos mitjans de comunicació, coordinat campanyes d’incidència
+                        política i social, i col·laborat en diversos projectes culturals amb voluntat transformadora.
+                        Des del gener del 2018 forma part de l’equip de Cultura21. VA SER TAMBÉ RRCC de Tigre de Paper
+                        edicions i ÉS coordinadora de la fira literal. <br>
                         <span> <a href="https://twitter.com/@araulaura" target="blank">@araulaura </a></span>
                         <span> <a href="https://twitter.com/@tigrepaper" target="blank">@tigrepaper </a></span>
                         <span> <a href="https://twitter.com/@literalbcn" target="blank">@literalbcn </a></span>
@@ -129,10 +133,11 @@
                     <img src="images/lauraarau.png" class="card-img-top ml-3" alt="Laura Arau Einess">
 
                     <div class="mt-4 mx-2">
-                        <p class="card-text text-red">“ Entenem i practiquem la Cultura Digital Oberta des del punt de
-                            vista metodològic més que purament instrumental. Des de la nostra perspectiva és clau
-                            acompanyar la ciutadania (sobretot infants i joves) per tal que pugui desplegar, amb
-                            llibertat i autonomia, dinàmiques de creació audiovisial participatives.”
+                        <p class="card-text text-red">“ Ens permet deixar de ser mers espectadors i ens ofereix la
+                            possibilitat d’experimentar, interactuar i aprendre en el procés. En l’últim any, com a
+                            cooperativa hem participat d’un espai col·lectiu que ens ha permès mutualitzar una
+                            plataforma d’streaming i videoconferència, construida amb programari lliure. El procés ens
+                            ha servit, alhora, per compartir recursos, coneixement i reptes de manera conjunta.”
                         </p>
 
                     </div>
@@ -195,7 +200,12 @@
             19:00
 
 
-            <a href="#" class="btn btn-danger ml-3">Participa</a>
+            <!-- <a href="#" class="btn btn-danger ml-3">Participa</a> -->
+
+            <div class="popup" onclick="popUp2()">
+                <div class="btn btn-danger ml-3">Participa</div>
+                <span class="popuptext" id="myPopup2">Esdeveniment encara no disponible</span>
+              </div>
 
         </div>
 
@@ -278,7 +288,7 @@
 
                                     <li class="mt-3">
                                         <a href="https://web.girona.cat/lamarfa" target="blank">
-                                            <img class="" src="images/Espai-Marfà.png" alt="Espai Marfà">
+                                            <img class="" src="images/marfa.png" alt="Espai Marfà">
                                         </a>
                                     </li>
 
@@ -373,6 +383,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+
+        <script src="js/einess.js"></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
