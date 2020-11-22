@@ -282,6 +282,10 @@ a {
     color: black;
 }
 
+.text-white{
+    color: white;
+}
+
 
 .card-img-top{
     max-width: 80%;
