@@ -30,6 +30,13 @@ body{
     font-weight: 200;
 }
 
+.titleProgramaRecursos{
+    font-size: 2rem;
+    /* padding-left: 35px ; */
+    font-family: volante;
+    font-weight: 200;
+}
+
 .articleText{
     font-family: volante;
     font-weight: 200;
